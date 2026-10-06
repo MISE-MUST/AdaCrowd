@@ -15,8 +15,6 @@ python -m pip install -r requirements.txt
 python train.py
 ```
 
-The example runs 10 annotation-selection rounds with 2 training epochs per round on CPU. It reports selected annotations, training loss, and test accuracy. Add `--device cuda:0` to use CUDA.
-
 The included LabelMe sample contains 128 training instances, 32 test instances, 8 classes, and 166 annotations from 8 workers. VGG16 features are included. This sample demonstrates the method's workflow; it does not reproduce the paper's full experimental results.
 
 ## Build the proofs
